@@ -46,17 +46,17 @@ const extraLargeArray = getSizedArray(100000);
 // array? 
 
 // Try it with first function
-perf.start();                     // Starts timer
+perf.start();                     // Starts timer 
 doublerAppend(extraLargeArray);
 let resultsAppend = perf.stop();  // Stops timer and save time results
 
 
-// Try it with second function
+// Try it with second function 
 perf.start();
 doublerInsert(extraLargeArray);
 let resultsInsert = perf.stop();
 
 
-console.log('Results for the extraLargeArray');
+console.log('Results for the ');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
